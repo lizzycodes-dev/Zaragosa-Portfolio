@@ -2,6 +2,7 @@ import {
     FaMapMarkerAlt,
     FaGraduationCap,
     FaLaptopCode,
+    FaCodeBranch,
 } from "react-icons/fa";
 
 export default function About() {
@@ -27,8 +28,7 @@ export default function About() {
 
                 <p>
                     My goal is to become a Software Engineer capable of
-                    building scalable applications that positively impact
-                    communities and businesses.
+                    building scalable, reliable, and user-friendly applications.
                 </p>
 
             </div>
@@ -52,60 +52,69 @@ export default function About() {
                     <span>Aspiring Software Engineer</span>
                 </div>
 
-                <div className="skills-progress">
+                <div className="profile-item">
+                    <FaCodeBranch />
+                    <span>Always Learning</span>
+                </div>
 
-                    <h4>Currently Learning</h4>
+                <div className="experience">
 
-                    <div className="progress">
+                    <h4>Experience Level</h4>
 
-                        <div className="progress-title">
-                            <span>Laravel</span>
-                            <span>85%</span>
+                    <div className="skill">
+                        <span>Laravel</span>
+
+                        <div className="dots">
+                            <span className="active"></span>
+                            <span className="active"></span>
+                            <span className="active"></span>
+                            <span className="active"></span>
+                            <span></span>
                         </div>
 
-                        <div className="bar">
-                            <div className="fill laravel"></div>
-                        </div>
-
+                        <small>Comfortable</small>
                     </div>
 
-                    <div className="progress">
+                    <div className="skill">
+                        <span>React</span>
 
-                        <div className="progress-title">
-                            <span>React</span>
-                            <span>75%</span>
+                        <div className="dots">
+                            <span className="active"></span>
+                            <span className="active"></span>
+                            <span className="active"></span>
+                            <span></span>
+                            <span></span>
                         </div>
 
-                        <div className="bar">
-                            <div className="fill react"></div>
-                        </div>
-
+                        <small>Growing</small>
                     </div>
 
-                    <div className="progress">
+                    <div className="skill">
+                        <span>Linux</span>
 
-                        <div className="progress-title">
-                            <span>Docker</span>
-                            <span>40%</span>
+                        <div className="dots">
+                            <span className="active"></span>
+                            <span className="active"></span>
+                            <span className="active"></span>
+                            <span></span>
+                            <span></span>
                         </div>
 
-                        <div className="bar">
-                            <div className="fill docker"></div>
-                        </div>
-
+                        <small>Growing</small>
                     </div>
 
-                    <div className="progress">
+                    <div className="skill">
+                        <span>Docker</span>
 
-                        <div className="progress-title">
-                            <span>Linux</span>
-                            <span>55%</span>
+                        <div className="dots">
+                            <span className="active"></span>
+                            <span className="active"></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
 
-                        <div className="bar">
-                            <div className="fill linux"></div>
-                        </div>
-
+                        <small>Learning</small>
                     </div>
 
                 </div>
