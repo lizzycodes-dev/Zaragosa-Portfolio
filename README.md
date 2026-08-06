@@ -1,18 +1,142 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio built with **React**, **Vite**, and **Tailwind CSS** to showcase my projects, certifications, skills, and software engineering journey.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+![Portfolio Preview](./public/images/portfolio-preview.png)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 👋 Hero section with introduction
+- 👨‍💻 About Me
+- ⚡ Skills with animated technology icons
+- 💼 Featured Projects
+- 📝 Learning Journey (Blog)
+- 📜 Certifications with preview modal
+- 📬 Contact section
+- 🌙 Dark Mode
+- 📱 Fully Responsive Design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- React Icons
+
+### Tools
+
+- VS Code
+- Git
+- GitHub
+- Figma (Design Planning)
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── assets/
+│
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.jsx
+│   │   └── Footer.jsx
+│   │
+│   └── sections/
+│       ├── Hero.jsx
+│       ├── About.jsx
+│       ├── Skills.jsx
+│       ├── Experience.jsx
+│       ├── Blog.jsx
+│       ├── Certifications.jsx
+│       └── Contact.jsx
+│
+├── pages/
+│   └── Home.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+Go inside the project
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📈 Future Improvements
+
+- Add project filtering
+- Integrate blog with Markdown
+- Add animations using Framer Motion
+- Add downloadable resume
+- Improve accessibility
+- Deploy custom domain
+
+---
+
+## 👤 Author
+
+**Liz T. Zaragosa**
+
+- 🎓 BSIT Student
+- 💻 Aspiring Software Engineer
+- ☁️ Future Cloud Engineer
+
+GitHub:
+https://github.com/lzaragosa555459-eng
+
+LinkedIn:
+(Your LinkedIn)
+
+Email:
+l.zaragosa.555459@umindanao.edu.ph
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
