@@ -1,32 +1,31 @@
 import { useState } from "react";
+import java from "../../assets/images/java.png";
+import database from "../../assets/images/database.png";
+import htmlcss from "../../assets/images/htmlcss.png";
 
 export default function Certifications() {
 
     const [selected, setSelected] = useState(null);
 
     const certificates = [
-
         {
             title: "Java",
             issuer: "Certiport",
-            logo: "/images/java-logo.png",
-            certificate: "/images/java-certificate.png",
+            logo: java,
+            certificate: java,
         },
-
         {
             title: "Database",
             issuer: "Certiport",
-            logo: "/images/database-logo.png",
-            certificate: "/images/database-certificate.png",
+            logo: database,
+            certificate: database,
         },
-
         {
             title: "HTML & CSS",
             issuer: "Certiport",
-            logo: "/images/htmlcss-logo.png",
-            certificate: "/images/htmlcss-certificate.png",
+            logo: htmlcss,
+            certificate: htmlcss,
         },
-
     ];
 
     return (

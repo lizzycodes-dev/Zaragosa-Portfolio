@@ -12,11 +12,11 @@ export default function Hero() {
             {/* Top Right Icons */}
             <div className="hero-icons">
 
-                <a href="#">
+                <a href="https://github.com/lzaragosa555459-eng">
                     <FaGithub />
                 </a>
 
-                <a href="#">
+                <a href="https://www.linkedin.com/in/liz-zaragosa-293b5b338/?skipRedirect=true">
                     <FaLinkedin />
                 </a>
 
@@ -40,7 +40,7 @@ export default function Hero() {
                     <h1>Liz Zaragosa</h1>
 
                     <p className="role">
-                        Aspiring Software Engineer
+                        Aspiring Full-Stack Developer
                     </p>
 
                     <p className="email">
