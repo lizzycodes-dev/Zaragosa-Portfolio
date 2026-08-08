@@ -44,7 +44,7 @@ export default function Hero() {
                     <h1>Liz Zaragosa</h1>
 
                     <p className="role">
-                        Aspiring Full-Stack Developer
+                        Aspiring Software Engineer
                     </p>
 
                     <p className="email">

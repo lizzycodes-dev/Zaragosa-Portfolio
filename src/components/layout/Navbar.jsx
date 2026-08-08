@@ -4,9 +4,6 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="container navbar-content">
 
-                <a href="#home" className="navbar-logo">
-                    liz's portfolio
-                </a>
 
                 <div className="navbar-links">
                     <a href="#home">Home</a>
