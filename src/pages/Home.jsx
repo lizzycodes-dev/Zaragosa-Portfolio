@@ -11,10 +11,9 @@ import Blog from "../components/sections/Blog";
 
 export default function Home() {
     return (
-        <div className="min-h-screen bg-slate-100">
-            <div className="max-w-4xl mx-auto px-8 py-24 text-base text-gray-600 leading-8">
-                <Navbar />
-
+        <div className="min-h-screen bg-slate-100 ">
+            <Navbar />
+            <div className="max-w-4xl mx-auto px-8 py-7 text-base text-gray-600 leading-8">
                 <main>
                     <Hero />
                     <About />

@@ -42,7 +42,7 @@ export default function Project() {
 
     return (
 
-        <section className="container project">
+        <section className="container project" id="projects">
 
             <span className="section-title">
                 EXPERIENCE

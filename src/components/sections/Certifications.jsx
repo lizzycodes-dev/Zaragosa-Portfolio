@@ -30,7 +30,7 @@ export default function Certifications() {
 
     return (
 
-        <section className="container certifications">
+        <section className="container certifications" id="certifications">
 
             <span className="section-title">
                 CERTIFICATIONS

@@ -9,7 +9,7 @@ export default function Contact() {
 
     return (
 
-        <section className="container contact">
+        <section className="container contact" id="contact">
 
             <span className="section-title">
                 CONTACT
@@ -43,21 +43,21 @@ export default function Contact() {
             <div className="social-links">
 
                 <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/lzaragosa555459-eng"
                     target="_blank"
                 >
                     <FaGithub />
                 </a>
 
                 <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://www.linkedin.com/in/liz-zaragosa-293b5b338/?skipRedirect=true"
                     target="_blank"
                 >
                     <FaLinkedin />
                 </a>
 
                 <a
-                    href="https://facebook.com/yourusername"
+                    href="#"
                     target="_blank"
                 >
                     <FaFacebook />

@@ -133,39 +133,42 @@ export default function Blog() {
 function BlogCard({ blog }) {
 
     return (
+        <section id="blog">
+            <article className="blog-card">
 
-        <article className="blog-card">
 
-            <div className="blog-content">
 
-                <span className="blog-meta">
+                <div className="blog-content">
 
-                    {blog.date} • {blog.read}
+                    <span className="blog-meta">
 
-                </span>
+                        {blog.date} • {blog.read}
 
-                <h3>{blog.title}</h3>
+                    </span>
 
-                <p>{blog.description}</p>
+                    <h3>{blog.title}</h3>
 
-                <button className="read-btn">
+                    <p>{blog.description}</p>
 
-                    Read More →
+                    <button className="read-btn">
 
-                </button>
+                        Read More →
 
-            </div>
+                    </button>
 
-            <div className="blog-image">
+                </div>
 
-                <img
-                    src={blog.image}
-                    alt={blog.title}
-                />
+                <div className="blog-image">
 
-            </div>
+                    <img
+                        src={blog.image}
+                        alt={blog.title}
+                    />
 
-        </article>
+                </div>
+
+            </article>      
+        </section>
 
     );
 

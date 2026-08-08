@@ -7,7 +7,7 @@ import {
 
 export default function About() {
     return (
-        <section className="container about">
+        <section className="container about" id="about">
 
             <div className="about-left">
 
