@@ -115,6 +115,7 @@ npm run build
 - Add downloadable resume
 - Improve accessibility
 - Deploy custom domain
+- Integrate contribution calendar from github
 
 ---
 
