@@ -7,11 +7,11 @@ import Certifications from "../components/sections/Certifications";
 import Contact from "../components/sections/Contact";
 import Footer from "../components/layout/Footer";
 import Blog from "../components/sections/Blog";
-
+import Contributions from "../components/sections/Contributions";
 
 export default function Home() {
     return (
-        <div className="min-h-screen bg-slate-100 ">
+        <div className="min-h-screen">
             <Navbar />
             <div className="max-w-4xl mx-auto px-8 py-7 text-base text-gray-600 leading-8">
                 <main>
@@ -21,6 +21,7 @@ export default function Home() {
                     <Projects />
                     <Blog />
                     <Certifications />
+                    <Contributions/>
                     <Contact />
                 </main>
 

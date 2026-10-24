@@ -45,7 +45,7 @@ export default function Project() {
         <section className="container project" id="projects">
 
             <span className="section-title">
-                EXPERIENCE
+                PROJECTS
             </span>
 
             <h2>Featured Projects</h2>

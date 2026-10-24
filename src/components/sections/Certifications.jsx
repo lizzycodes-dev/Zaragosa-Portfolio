@@ -2,6 +2,7 @@ import { useState } from "react";
 import java from "../../assets/images/java.png";
 import database from "../../assets/images/database.png";
 import htmlcss from "../../assets/images/htmlcss.png";
+import networking from "../../assets/images/networking.png";
 
 export default function Certifications() {
 
@@ -25,6 +26,12 @@ export default function Certifications() {
             issuer: "Certiport",
             logo: htmlcss,
             certificate: htmlcss,
+        },
+        {
+            title: "NETWORKING",
+            issuer: "Certiport",
+            logo: networking,
+            certificate: networking,
         },
     ];
 

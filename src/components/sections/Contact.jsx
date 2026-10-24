@@ -43,10 +43,10 @@ export default function Contact() {
             <div className="social-links">
 
                 <a
-                    href="https://github.com/lzaragosa555459-eng"
+                    href="https://github.com/lizzycodes-dev"
                     target="_blank"
                 >
-                    <FaGithub />
+                    <FaGithub />    
                 </a>
 
                 <a

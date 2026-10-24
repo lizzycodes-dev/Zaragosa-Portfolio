@@ -3,7 +3,7 @@ import {
     FaLinkedin,
     FaFacebook,
 } from "react-icons/fa";
-import profile from "../../assets/images/profile.jpg";
+import profile from "../../assets/images/profile.png";
 
 export default function Hero() {
     return (
@@ -12,7 +12,7 @@ export default function Hero() {
             {/* Top Right Icons */}
             <div className="hero-icons">
 
-                <a href="https://github.com/lzaragosa555459-eng"
+                <a href="https://github.com/lizzycodes-dev"
                     target="_blank"
                 >
                     <FaGithub />
@@ -44,7 +44,7 @@ export default function Hero() {
                     <h1>Liz Zaragosa</h1>
 
                     <p className="role">
-                        Aspiring Software Engineer
+                       Student
                     </p>
 
                     <p className="email">

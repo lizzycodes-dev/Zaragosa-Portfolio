@@ -12,6 +12,7 @@ export default function Navbar() {
                     <a href="#projects">Projects</a>
                     <a href="#blog">Blog</a>
                     <a href="#certifications">Certifications</a>
+                    <a href="#contributions">Contributions</a>
                     <a href="#contact">Contact</a>
                 </div>
 
